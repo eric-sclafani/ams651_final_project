@@ -2,6 +2,10 @@ from nltk.corpus import stopwords
 import pandas as pd
 from re import sub, findall
 
+
+#DATASET:  https://www.kaggle.com/datasets/tysonpo/ice-cream-dataset
+
+
 # words that dont have any sentiment
 s_words = stopwords.words("english")
 s_words.extend(["ive", "much","ice", "cream", "im", "dont", 
@@ -28,7 +32,7 @@ def tokenizer(text):
     Args:
         text (str): string to be tokenized
     Returns:
-        Tokenized string
+        Tokenized string 
     """
     return findall(r"\w+", text.lower().strip())
 
