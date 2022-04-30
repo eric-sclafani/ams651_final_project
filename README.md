@@ -13,3 +13,10 @@ https://www.kaggle.com/datasets/tysonpo/ice-cream-dataset
 - text_preprocessor.py - contains the code for cleaning the text data. Gets imported into both .ipynb files.
 
 - ice_cream_reviews.csv - raw data
+
+## Required packages
+- NumPy
+- sklearn
+- math
+- matplotlib
+- collections
